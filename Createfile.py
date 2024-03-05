@@ -39,4 +39,32 @@ sample_questions = {
         
     ],
 
+    'Business Database mgmt Science': [
+        ('Purpose of RDBMS?', 'organization'),
+        ('SQL Full Form?', "Structured Query Language"),
+        ('Combining Data Sources?', "Integration"),
+        ("Decision Trees in", "Modeling"),
+        ("Purpose of Normalization?", "Efficiency"),
+        ("OLAP vs. OLTP?", "analysis"),
+        ("Linear Programming in?", "Optimization"),
+        ("Primary Key ensures", "uniqueness"),
+        ("Database Index Purpose", "Retrieval"),
+        ("Data Warehouse vs. Database?", "Analytical"),
+        
+    ],
+
+    'General Biology II': [
+        ('What is the process by which cells engulf large particles, such as food or other cells, by wrapping their cell membrane around them?', 'Phagocytosis'),
+        ("In genetics, what term describes the alteration of an organism's genetic material, often resulting in new traits or characteristics?", "Mutation"),
+        ("What is the name of the process by which a cell duplicates its DNA and then divides into two identical daughter cells?", "Cell Division"),
+        ("Which organelle is responsible for the synthesis of lipids, detoxification of drugs and poisons, and storage of calcium ions in eukaryotic cells?", "Smooth Endoplasmic Reticulum "),
+        ("What term describes the tendency of organisms to maintain internal stability in response to environmental changes?", "Homeostasis"),
+        ("In cellular respiration, what is the final electron acceptor in the electron transport chain?", "Oxygen"),
+        ("What is the name of the process by which cells convert light energy into chemical energy, producing glucose in plants?", "Photosynthesis"),
+        ("Which molecule is often called the building blocks of life and consists of a sugar, a phosphate group, and a nitrogenous base?", "Nucleotide"),
+        ("What is the term for the phase of the cell cycle during which the cell is actively growing, carrying out its normal functions, and preparing for cell division?", "Interphase"),
+        ("In ecology, what is the term for the community of organisms and their physical environment interacting as an ecological unit?", "Ecosystem"),
+        
+    ],
+
 }

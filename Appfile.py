@@ -11,7 +11,7 @@ def main():
   print("Test your knowledge across various categories!")
 
  # Get a list of available categories
-  categories = ReadFileone.get_table_names(conn)
+  categories = Readfile.get_table_names(conn)
   print("\nAvailable Categories:")
   for i, category in enumerate(categories):
     print(f"{i+1}. {category}")
@@ -29,7 +29,7 @@ def main():
       print("Invalid input. Please enter a number.")
 
 # Retrieve questions and answers for the chosen category
-  category_data = ReadFileone.get_all_data(conn, selected_category)
+  category_data = Readfile.get_all_data(conn, selected_category)
 
   # Start the quiz loop
   score = 0

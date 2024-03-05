@@ -27,7 +27,7 @@ def main():
         print("Invalid choice. Please enter a number between 1 and", len(categories))
     except ValueError:
       print("Invalid input. Please enter a number.")
-      
+
 # Retrieve questions and answers for the chosen category
   category_data = ReadFileone.get_all_data(conn, selected_category)
 
@@ -45,3 +45,12 @@ def main():
     else:
       print(f"\033[38;2;250;0;0mIncorrect. The answer is: {question['answer_text']}")
       print("\033[38;2;250;250;250m")
+
+  # Display final score
+  print(f"\nYour final score: {score} out of {num_questions}")
+
+  # Close the database connection
+  conn.close()
+
+if __name__ == "__main__":
+  main()

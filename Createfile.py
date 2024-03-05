@@ -66,5 +66,32 @@ sample_questions = {
         ("In ecology, what is the term for the community of organisms and their physical environment interacting as an ecological unit?", "Ecosystem"),
         
     ],
+    'Mgmt organization Behavior': [
+        ('What psychological theory suggests that individuals are motivated by internal factors such as autonomy, mastery, and purpose in the workplace?', 'Self-Determination Theory'),
+        ('In organizational behavior, what term describes the process through which individuals acquire the knowledge, skills, and attitudes necessary to be effective members of an organization?', "Onboarding"),
+        ('What leadership style involves a leader who sets clear expectations, makes decisions independently, and expects subordinates to follow instructions without much input?', "Autocratic Leadership"),
+        ("According to Frederick Herzberg's Two-Factor Theory, what are the two categories of factors that influence job satisfaction and dissatisfaction?", "Hygiene and motivators"),
+        ("What term in organizational behavior refers to the psychological discomfort a person feels when their attitudes or beliefs are inconsistent with their behavior?", "Cognitive Dissonance"),
+        ("In the context of teams, what term describes a group phenomenon where members prioritize agreement and consensus over critical evaluation of information?", "Groupthink"),
+        ("What organizational change model proposes that change occurs through a series of stages: unfreezing, changing, and refreezing?", " Lewin's Change Mode"),
+        ("What concept in organizational behavior refers to the degree to which individuals believe they control their own fate and can influence their work environment?", "Locus of Control"),
+        (" Who introduced the concept of the psychological contract in the context of employment, emphasizing the mutual expectations between employees and organizations?", "Denise Rousseau"),
+        ("What communication model, introduced by Wilbur Schramm, involves the sender encoding a message, the message being transmitted through a channel, and the receiver decoding the message?", "Schramm's Model of Communication"),
+        
+    ],
+
+    'Business Applications': [
+        ('What does "HTML" stand for?', 'HyperText Markup Language'),
+        ('Which programming language is often used for creating dynamic web pages in business applications?', "JavaScript"),
+        ("What does API stand for in software development?", "Application Programming Interface"),
+        ("Which design pattern separates the presentation layer, business logic, and data access in an application?", "MVC"),
+        ("What type of database is commonly used for business applications and uses tables to store data?", "Relational"),
+        ("In version control, what does VCS stand for?", "Version Control System"),
+        ("What does UX stand for in mobile app development?", "User Experience"),
+        ("Which programming language is known for its platform independence and is widely used in enterprise-level business applications?", "Java"),
+        ("In software development, what does DevOps aim to integrate?", "agile"),
+        ("In software development, what does DevOps aim to integrate?", "Development and Operations"),
+        
+    ],
 
 }

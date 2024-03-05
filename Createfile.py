@@ -95,3 +95,14 @@ sample_questions = {
     ],
 
 }
+
+# Insert questions into the respective tables
+for category, questions in sample_questions.items():
+    cursor.executemany(f'''
+        INSERT INTO {category.replace(" ", "_")} (question, answer)
+        VALUES (?, ?);
+    ''', questions)
+
+# Commit changes and close the connection
+conn.commit()
+conn.close()

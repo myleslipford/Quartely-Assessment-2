@@ -12,3 +12,13 @@ categories = [
     'Mgmt organization Behavior',
     'Business Applications'
 ]
+
+# Create tables for each category
+for category in categories:
+    cursor.execute(f'''
+        CREATE TABLE IF NOT EXISTS {category.replace(" ", "_")} (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            question TEXT,
+            answer TEXT
+        );
+    ''')

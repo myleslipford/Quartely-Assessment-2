@@ -7,8 +7,17 @@ How to Start the quiz bowl:
 
 
 How to play:
-1. When you run quiz_bowl.py, the application will display a list of available categories based on your database tables.
-2. Select the category you want to be quizzed on by entering the corresponding number (1, 2, etc.).
-3. he application will present each question one by one. Enter your answer.
-4. You will receive immediate feedback (green for correct, red for incorrect).
+1. When you run Appfile.py, the application will display a list of available categories based on your database tables.
+2. Select the category you want to be quizzed on by entering the corresponding number (1, 2, 3, 4, 5,).
+3. The application will present 10 question one by one. Enter your answer.
+4. You will receive immediate feedback after entering each answer (green for correct, red for incorrect).
 5. After all questions are answered, you'll see your final score.
+
+
+
+datebasefile1.db:
+1. Connects to an SQLite database (or creates it).
+2. Defines categories (Business Statistics, etc.).
+3. Creates tables for each category with columns for question, answer, and unique identifier.
+4. Inserts sample questions using a dictionary.
+5. Saves changes and closes the connection.

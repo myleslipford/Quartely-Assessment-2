@@ -16,6 +16,9 @@ How to play:
 
 
 datebasefile1.db:
+1. stores all 5 categories in it along with there questions and answers
+
+createfile.py:
 1. Connects to an SQLite database (or creates it).
 2. Defines categories (Business Statistics, etc.).
 3. Creates tables for each category with columns for question, answer, and unique identifier.

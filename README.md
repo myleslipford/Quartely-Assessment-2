@@ -33,3 +33,13 @@ Readfile.py
 
 
 
+Appfile.py:
+- This file lets you play a quiz bowl game and explore categories in the database.
+
+Key Functionalities:
+1. Connects to the database.
+2. Displays available categories.
+3. Guides you through a quiz based on your chosen category.
+4. Provides feedback and tracks your score.
+
+

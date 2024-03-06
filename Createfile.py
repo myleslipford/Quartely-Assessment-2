@@ -17,7 +17,7 @@ categories = [
 for category in categories:
     cursor.execute(f'''
         CREATE TABLE IF NOT EXISTS {category.replace(" ", "_")} (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id INTEGER PRIMARY KEY,
             question TEXT,
             answer TEXT
         );
